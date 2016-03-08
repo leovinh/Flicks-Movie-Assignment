@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		B4A131CB1C8EB9D1001A80B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A131CA1C8EB9D1001A80B0 /* AppDelegate.swift */; };
-		B4A131CD1C8EB9D1001A80B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A131CC1C8EB9D1001A80B0 /* ViewController.swift */; };
 		B4A131D01C8EB9D1001A80B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A131CE1C8EB9D1001A80B0 /* Main.storyboard */; };
 		B4A131D21C8EB9D1001A80B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A131D11C8EB9D1001A80B0 /* Assets.xcassets */; };
 		B4A131D51C8EB9D1001A80B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A131D31C8EB9D1001A80B0 /* LaunchScreen.storyboard */; };
+		B4A131DD1C8ECC34001A80B0 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A131DC1C8ECC34001A80B0 /* MovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B4A131C71C8EB9D0001A80B0 /* FlicksMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlicksMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A131CA1C8EB9D1001A80B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B4A131CC1C8EB9D1001A80B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B4A131CF1C8EB9D1001A80B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4A131D11C8EB9D1001A80B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4A131D41C8EB9D1001A80B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4A131D61C8EB9D1001A80B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A131DC1C8ECC34001A80B0 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				B4A131CA1C8EB9D1001A80B0 /* AppDelegate.swift */,
-				B4A131CC1C8EB9D1001A80B0 /* ViewController.swift */,
 				B4A131CE1C8EB9D1001A80B0 /* Main.storyboard */,
 				B4A131D11C8EB9D1001A80B0 /* Assets.xcassets */,
 				B4A131D31C8EB9D1001A80B0 /* LaunchScreen.storyboard */,
 				B4A131D61C8EB9D1001A80B0 /* Info.plist */,
+				B4A131DC1C8ECC34001A80B0 /* MovieViewController.swift */,
 			);
 			path = FlicksMovie;
 			sourceTree = "<group>";
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4A131CD1C8EB9D1001A80B0 /* ViewController.swift in Sources */,
 				B4A131CB1C8EB9D1001A80B0 /* AppDelegate.swift in Sources */,
+				B4A131DD1C8ECC34001A80B0 /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

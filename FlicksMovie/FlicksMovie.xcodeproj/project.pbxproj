@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B44F486C1C91868200418CA8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B44F486B1C91868200418CA8 /* .gitignore */; };
 		B4A131CB1C8EB9D1001A80B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A131CA1C8EB9D1001A80B0 /* AppDelegate.swift */; };
 		B4A131D01C8EB9D1001A80B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A131CE1C8EB9D1001A80B0 /* Main.storyboard */; };
 		B4A131D21C8EB9D1001A80B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A131D11C8EB9D1001A80B0 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B44F486B1C91868200418CA8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B4A131C71C8EB9D0001A80B0 /* FlicksMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlicksMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A131CA1C8EB9D1001A80B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A131CF1C8EB9D1001A80B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		B4A131BE1C8EB9D0001A80B0 = {
 			isa = PBXGroup;
 			children = (
+				B44F486B1C91868200418CA8 /* .gitignore */,
 				B4A131C91C8EB9D0001A80B0 /* FlicksMovie */,
 				B4A131C81C8EB9D0001A80B0 /* Products */,
 			);
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44F486C1C91868200418CA8 /* .gitignore in Resources */,
 				B4A131D51C8EB9D1001A80B0 /* LaunchScreen.storyboard in Resources */,
 				B4A131D21C8EB9D1001A80B0 /* Assets.xcassets in Resources */,
 				B4A131D01C8EB9D1001A80B0 /* Main.storyboard in Resources */,
@@ -284,6 +288,7 @@
 				B4A131DB1C8EB9D1001A80B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,9 +17,23 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableHeaderView" alpha="0.45000000000000001" contentMode="scaleToFill" id="5Je-NZ-G3P">
+                                    <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Network error" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ha7-5d-nuF">
+                                            <rect key="frame" x="114" y="11" width="106" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="121" id="6bZ-nD-Pui" customClass="MovieCell" customModule="FlicksMovie" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="92" width="320" height="121"/>
+                                        <rect key="frame" x="0.0" y="136" width="320" height="121"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6bZ-nD-Pui" id="q2e-AD-0YJ">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="120.5"/>
@@ -59,6 +73,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Movies" id="ckD-Vv-nDh"/>
                     <connections>
+                        <outlet property="errorNetworkView" destination="5Je-NZ-G3P" id="NAF-Yo-dUl"/>
                         <outlet property="tableView" destination="H5f-cb-gfH" id="hXC-5w-DII"/>
                     </connections>
                 </viewController>
